@@ -172,7 +172,7 @@ if __name__ == "__main__":
     n_runs = int(sys.argv[3])
 
     # ── Parámetros ──
-    T    = 4500
+    T    = 5000
     v    = 0.03
     r    = 1.0
     dt   = 1        # implícito en la simulación
