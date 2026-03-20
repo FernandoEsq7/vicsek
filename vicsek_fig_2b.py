@@ -42,13 +42,13 @@ def run_simulation(run_idx, N, T, L, v, r, dt, eta):
 
 if __name__ == "__main__":
     Ns = list(range(100, 1200, 100)) + list(range(1200,4200,400))
-    T = 2000
+    T = 4500
     L = 20
     v = 0.03
     r = 1
     dt = 1
     eta = 2.1
-    n_runs = 20
+    n_runs = 25
 
     rhos = []
     phis = []
